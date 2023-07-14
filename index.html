@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-3</title>
+    <link rel="shortcut icon" href="/html5.png" type="image/x-icon">
+    <style>
+        body {
+            background-color: rgb(70, 8, 8);
+            color: white;
+        }
+
+        .t-table-text {
+            color: rgba(255, 255, 255, 0.616);
+        }
+
+        .text,
+        .t-table-text {
+            text-align: center;
+        }
+
+        table {
+            border: 2px solid;
+            width: 450px;
+            height: 270px;
+            margin: auto;
+            text-align: center;
+        }
+
+        td{
+            border: 2px solid;
+            padding-right: 5px;
+            padding-left: 5px;
+        }
+        table a{
+            color: rgb(15, 78, 15);
+        }
+
+        .img-container img {
+            display: block;
+            margin: 0 auto;
+
+        }
+
+        #img1 {
+
+            height: 180px;
+            width: 180px;
+        }
+
+        #img2 {
+            height: 200px;
+            width: 200px;
+        }
+
+        .form-container {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="output1">
+
+        <div class="table">
+            <p class="t-table-text">Play With Html</p>
+            <table>
+
+                <tbody>
+                    <tr>
+                        <td colspan="3">1</td>
+                        <td>4</td>
+                        <td colspan="8" rowspan="5">5
+                            <ul>
+                                <li type="square"><a href="https://www.w3schools.com/">W3Schools</a></li>
+                                <li><a href="https://developer.mozilla.org/en-US/">Mozilla</a></li>
+                                <li type="circle"><a href="https://www.codecademy.com/resources/docs/html">HTML</a></li>
+                            </ul>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td rowspan="2">1</td>
+                        <td rowspan="4">2</td>
+                        <td rowspan="2">3</td>
+                        <td rowspan="2">4</td>
+                    </tr>
+                    <tr>
+
+                    </tr>
+                    <tr>
+                        <td rowspan="3">1</td>
+                        <td rowspan="2">3</td>
+                        <td rowspan="2">4</td>
+
+                    </tr>
+                    <tr>
+
+                    </tr>
+                    <tr>
+                        <td colspan="3">2</td>
+                        <td colspan="8">5</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td colspan="10">3</td>
+                    </tr>
+            </table>
+
+
+        </div>
+
+        <div class="text">
+
+            <h2>Learning Websites</h2>
+
+            <div>
+                <!-- <a href="https://www.w3schools.com/">W3Schools</a> -->
+                <h4><u>W3Schools</u></h4>
+                <p>W3Schools is a freemium educational website for learning coding online.[1][2] Initially released in
+                    1998, it derives its name from the World Wide Web but is not affiliated with the W3
+                    Consortium.[3][4] W3Schools offers courses covering all aspects of web development.[5] W3Schools
+                    also publishes free HTML templates. It is run by Refsnes Data in Norway.[6] It has an online text
+                    editor called TryIt Editor, and readers can edit examples and run the code in a test environment.
+                </p>
+            </div>
+
+            <div>
+                <!-- <a href="https://developer.mozilla.org/en-US/">Mozilla Developers</a> -->
+                <h4><u>Mozilla Developers</u></h4>
+                <p>MDN Web Docs, previously Mozilla Developer Network and formerly Mozilla Developer Center, is a
+                    documentation repository and learning resource for web developers. It was started by Mozilla in
+                    2005[1] as a unified place for documentation about open web standards, Mozilla's own projects, and
+                    developer guides.[2]</p>
+            </div>
+
+            <div>
+                <!-- <a href="https://www.codecademy.com/resources/docs/html">HTML Docs</a> -->
+                <h4><u>HTML Docs</u></h4>
+                <p>The HyperText Markup Language or HTML is the standard markup language for documents designed to be
+                    displayed in a web browser. It defines the meaning and structure of web content. It is often
+                    assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as
+                    JavaScript</p>
+            </div>
+        </div>
+
+
+
+    </section><br>
+    <!-- output2 section -->
+
+    <section class="output2">
+
+        <!-- image section -->
+
+        <div class="img-container">
+
+            <img id="img1" src="/mdnwebdocs.svg" alt=""><br>
+
+            <img id="img2" src="/html-com-logo.webp" alt="">
+
+        </div>
+
+        <!-- short note div -->
+
+        <div class="cointainer">
+            <div class="text">
+                <h3>Write Short Note:</h3>
+                <h4>1.HTTP and HTTPS, and its functions</h4>
+                <p>HTTP (Hypertext Transfer Protocol) is a protocol used for transmitting data over the internet. It
+                    establishes a connection between a web server and a client, allowing them to exchange information.
+                    However, HTTP is not secure, making data vulnerable to interception. HTTPS (Hypertext Transfer
+                    Protocol Secure) adds encryption to HTTP, ensuring secure communication and protecting sensitive
+                    data.</p>
+                <h4>2.Google Search ia an unavoidable part for programmers life.</h4>
+                <p>Google Search is an indispensable tool in a programmer's life. It provides quick access to vast
+                    amounts of programming resources, tutorials, and solutions. From debugging errors to learning new
+                    concepts, programmers rely on Google Search to find answers, explore documentation, and stay updated
+                    with the ever-evolving programming landscape.</p>
+            </div>
+
+        </div>
+
+        <!-- From Section -->
+        <div class="form-container">
+            <form class="form" action="">
+                <fieldset>
+                    <legend>Resitration Form</legend>
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname" placeholder="Enter Your First Name"><br><br>
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname" placeholder="Enter Your Last Name"><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="hridoy@gmail.com"><br><br>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Passoword"><br><br>
+                    <label for="contact">Contact</label>
+                    <input type="tel" name="tel" id="tel" placeholder="0100000000"><br><br>
+                    <label for="gender">Gender:</label>
+                    <input type="radio" name="gender" id="gender">
+                    <label for="">Male</label>
+                    <input type="radio" name="gender" id="gender">
+                    <label for="">Female</label>
+                    <input type="radio" name="gender" id="gender">
+                    <label for="">Others</label><br><br>
+                    <input type="submit" value="Submit">
+
+                </fieldset>
+            </form>
+
+
+        </div>
+
+
+
+    </section>
+
+</body>
+
+</html>
